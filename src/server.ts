@@ -11,7 +11,7 @@ const main = async() => {
     })
   } catch (error) {
     console.log(`Server is disconnect`)
-     await prisma.$disconnect();
+    await prisma.$disconnect();
   }
 }
 
